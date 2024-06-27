@@ -25,7 +25,7 @@ async def start(message: Message) -> None:
     )
 
 async def main() -> None:
-    bot = Bot('7037380178:AAG7t1LgPc4fxzIBZOTW4aUHvlYdv7TpTIA', ParseMode=ParseMode.HTML)
+    bot = Bot('7037380178:AAG7t1LgPc4fxzIBZOTW4aUHvlYdv7TpTI', ParseMode=ParseMode.HTML)
 
     dp = Dispatcher()
     dp.include_router(router)
