@@ -10,7 +10,7 @@ def webapp_builder() -> InlineKeyboardBuilder:
     builder = InlineKeyboardBuilder()
     builder.button(
         text="Давай Кликать!", web_app=WebAppInfo(
-            url="https://0aa6-89-22-52-250.ngrok-free.app"
+            url="https://0aa6-89-22-2-250.ngrok-free.app"
         )
     )
     return builder.as_markup()
